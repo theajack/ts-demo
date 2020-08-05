@@ -1,4 +1,6 @@
-这是一个支持eslint的typescript运行环境，分享一下
+### typescript运行环境demo
+
+这是一个支持eslint的typescript运行环境
 
 只需要克隆，安装依赖就可以运行起来了，毕竟webpack、eslint、babel、ts的配置搞起来还是比较麻烦的～
 
