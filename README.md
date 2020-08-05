@@ -1,67 +1,25 @@
-### This is a project build with [EBuild-Cli](https://github.com/theajack/ebuild-cli)
+这是一个支持eslint的typescript运行环境，分享一下
 
-### Install dependencies
+只需要克隆，安装依赖就可以运行起来了，毕竟webpack、eslint、babel、ts的配置搞起来还是比较麻烦的～
 
-```
-npm install
-```
-
-use taobao repository
+在你喜欢的目录运行：
 
 ```
-npm install --registry https://registry.npm.taobao.org
+git clone https://github.com/theajack/ts-demo.git
 ```
 
-### Init git repository
-
 ```
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin {Your remote git repository address}
-git push -u origin master
+cd ts-demo
 ```
 
-### Commond
+使用淘宝镜像安装依赖
+
+```
+npm i --registry=https://registry.npm.taobao.org
+```
 
 ```
 npm run dev
-npm run build
-npm run build:npm
-npm run publish
-npm run lint
-npm run copy-latest
-npm run modify-version
-npm run copy-npm
 ```
 
-### ebuild.config.js
-
-```js
-module.exports = {
-    'tranToEs5InNpm': true, // wether use babel
-    'packageFiles': [
-        './package.json'
-        // config which package.json files need to modify version
-        // '../npm/package.json', // this is an example
-    ],
-    'versioJsEs6Module': true, // use es6(export default) or require(module.exports=)
-    'versioJsFiles': [
-        // config which version.js files need to modify version
-        // '../npm/version.js', // this is an example
-    ],
-    'name': '',
-    'version': '0.0.1',
-    'npmExternals': {
-        // example
-        // 'md5': 'md5'
-    },
-    'npmPaths': [
-        'npm'
-    ]
-};
-```
-
-### Vscode plugin
-
-Install 'ESLint' plugin
+项目中有一些用不到的东西可以删除，代码就不介绍了，后面就到你自己发挥啦！
