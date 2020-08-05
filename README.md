@@ -20,8 +20,17 @@ cd ts-demo
 npm i --registry=https://registry.npm.taobao.org
 ```
 
+使用 webpack-dev-server 运行demo
+
 ```
 npm run dev
 ```
+
+打包：
+
+```
+npm run build
+```
+
 
 项目中有一些用不到的东西可以删除，代码就不介绍了，后面就到你自己发挥啦！

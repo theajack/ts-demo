@@ -3,15 +3,9 @@
     "version": "0.0.1",
     "description": "idcard",
     "scripts": {
-        "build": "webpack --config webpack-config/build.js --env.mode=script",
-        "build:npm": "webpack --config webpack-config/build.js --env.mode=npm",
-        "publish": "npm publish npm",
         "dev": "webpack-dev-server --open --config webpack-config/dev.js",
-        "lint": "eslint src --ext js",
-        "copy-latest": "node ./helper/copy-latest.js",
-        "modify-version": "node ./helper/modify-version.js",
-        "copy-npm": "node ./helper/copy-npm.js",
-        "render-tpl": "node ./template/execute.js"
+        "build": "webpack --config webpack-config/build.js",
+        "lint": "eslint src --ext js"
     },
     "author": "theajack",
     "repository": {
@@ -50,15 +44,6 @@
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.9",
         "webpack-dev-server": "^3.8.2"
-    },
-    "dependencies": {
-        "cnchar": "^2.2.1",
-        "cnchar-draw": "^2.2.1",
-        "cnchar-idiom": "^2.2.1",
-        "cnchar-order": "^2.2.1",
-        "cnchar-poly": "^2.2.1",
-        "cnchar-trad": "^2.2.1",
-        "cnchar-xhy": "^2.2.1"
     },
     "husky": {
         "hooks": {

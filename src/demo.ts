@@ -6,4 +6,4 @@ console.log(bool);
 let a: number = Color.Red;
 console.log(Color.Red, a);
 
-export default 'aaa';
+export default 'Hello World';
