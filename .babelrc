@@ -4,7 +4,9 @@
         {
           "useBuiltIns": "entry",
           "targets": {
-            "esmodules": true
+            "esmodules": true,
+            "chrome": "58",
+            "ie": "11"
           }
         }
     ]],
