@@ -2,4 +2,4 @@
 /public/index.html
 /npm
 /cdn
-*.js
+/dist

@@ -3,7 +3,9 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   "globals": {
     "window": true,
-    "console": true
+    "console": true,
+    "module": true,
+    "require": true 
   },
   "parserOptions": {
     "sourceType": "module" // ts 中使用 es 模块

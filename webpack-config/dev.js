@@ -7,7 +7,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     resolve: {
-      extensions: [ '.tsx', '.ts', '.js' ]
+        extensions: [ '.tsx', '.ts', '.js' ]
     },
     devtool: 'eval-source-map',
     devServer: {

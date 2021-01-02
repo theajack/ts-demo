@@ -1,7 +1,6 @@
 const path = require('path');
-let pkg = require('../package.json');
 
-module.exports = (env) => {
+module.exports = () => {
     return {
         mode: 'production',
         entry: path.resolve('./', 'src/index.ts'),
@@ -13,7 +12,7 @@ module.exports = (env) => {
             libraryExport: 'default',
         },
         resolve: {
-          extensions: [ '.tsx', '.ts', '.js' ]
+            extensions: [ '.tsx', '.ts', '.js' ]
         },
         externals: {},
         module: {
