@@ -49,6 +49,10 @@ module.exports = {
     "semi-spacing": "error",
     "comma-spacing": "error",
     "key-spacing": "error",
-    "no-undef": "error"
+    "no-undef": "error",
+    "prefer-const": ["error", {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false
+    }]
   }
 }

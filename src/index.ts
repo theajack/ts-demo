@@ -1,7 +1,7 @@
 import hello from './demo';
 import {b, fn} from './a';
 
-let main = () => {
+const main = () => {
     window.console.log(hello);
     window.alert(hello);
     [1, 2, 3].forEach((num) => {
